@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    min-height: 100%;
+}
+
+body{
+    min-height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+@layer utilities {
+    .dot-blue {
+        background: radial-gradient(closest-side, #1d4ed8, transparent);
+        aspect-ratio: 1/1;
+        filter: blur(40px);
+    }
+    .dot-cyan {
+        background: radial-gradient(closest-side, #38bdf8, transparent);
+        aspect-ratio: 1/1;
+        filter: blur(40px);
+    }
+    .dot-purple {
+        background: radial-gradient(closest-side, #3730a3, transparent);
+        aspect-ratio: 1/1;
+        filter: blur(40px);
+    }
+    .dot-fuchsia {
+        background: radial-gradient(closest-side, #c026d3, transparent);
+        aspect-ratio: 1/1;
+        filter: blur(40px);
+    }
+}
