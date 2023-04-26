@@ -18,8 +18,8 @@
   <nav class="flex justify-center py-4 md:px-[14vw]">
     <ul class="flex justify-around w-full md:justify-between gap-4">
       <li>
-        <Button button>
-          <FileIcon href='https://drive.google.com/file/d/1-9dp7g28oNKzcBw-7GM-XGm4mfzClNy0/view?usp=sharing'/>
+        <Button href='https://drive.google.com/file/d/1-9dp7g28oNKzcBw-7GM-XGm4mfzClNy0/view?usp=sharing'>
+          <FileIcon />
           <p>Curriculum</p>
         </Button>
       </li>
