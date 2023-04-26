@@ -12,7 +12,7 @@
     <div class="border border-t-stone-500 py-10 bg-white">
         <div class="flex gap-2 md:gap-4 justify-center flex-wrap">
             <Button>
-                <FileIcon />
+                <FileIcon href='https://drive.google.com/file/d/1-9dp7g28oNKzcBw-7GM-XGm4mfzClNy0/view?usp=sharing'/>
                 <p>Curriculum</p>
             </Button>
             <Button href='https://www.linkedin.com/in/jhonn-gutierrez-643592238/'>
