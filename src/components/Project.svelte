@@ -12,7 +12,7 @@
 </script>
 
 <div class="bg-white shadow-lg border border-slate-200 w-full lg:flex lg:w-5/6 rounded-xl overflow-hidden">
-  <div class="bg-point-gradient bg-center bg-[length:160%] w-full aspect-[47/32] lg:w-1/2">
+  <div class="w-full aspect-[47/32] lg:w-1/2">
     <img class="max-h-full max-w-full h-full" src={image} alt={`${title} screeshot`} />
   </div>
   <div class="px-4 py-8 lg:pl-12 lg:w-1/2 lg:flex lg:flex-col">
