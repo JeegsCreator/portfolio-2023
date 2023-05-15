@@ -15,7 +15,7 @@ export default {
         'center-box': 'calc(50% - 2.5rem)',
       },
       backgroundImage: {
-        'point-gradient': "url(./src/assets/gradient-background.png)"
+        'point-gradient': "url(https://res.cloudinary.com/dc02tzmcb/image/upload/v1684177469/gradient-background_nyyvho.png)"
       }
     }
   },

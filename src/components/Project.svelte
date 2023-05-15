@@ -11,11 +11,11 @@
   export let technologies = []
 </script>
 
-<div class="border border-stone-500 w-full lg:flex lg:w-5/6">
-  <div class="border-b bg-point-gradient bg-center bg-[length:160%] border-stone-500 lg:border-b-0 p-4 w-full aspect-video lg:w-1/2">
+<div class="bg-white shadow-lg border border-slate-200 w-full lg:flex lg:w-5/6 rounded-xl overflow-hidden">
+  <div class="bg-point-gradient bg-center bg-[length:160%] w-full aspect-[47/32] lg:w-1/2">
     <img class="max-h-full max-w-full h-full" src={image} alt={`${title} screeshot`} />
   </div>
-  <div class="px-4 pt-6 pb-4 lg:pl-12 lg:w-1/2 lg:flex lg:flex-col">
+  <div class="px-4 py-8 lg:pl-12 lg:w-1/2 lg:flex lg:flex-col">
     <div class="flex justify-between gap-2 items-center pb-4">
       <h3 class="font-montserrat text-2xl lg:text-4xl">{title}</h3>
       <div class="flex gap-2">
