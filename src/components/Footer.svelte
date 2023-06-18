@@ -25,7 +25,7 @@
             </Button>
         </div>
         <div class="flex justify-center mt-8">
-            <p>{$t("footer")}</p>
+            <p>{@html $t("footer")}</p>
         </div>
     </div>
 </footer>

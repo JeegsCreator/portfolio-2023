@@ -16,21 +16,22 @@
 
 <header>
   <nav class="flex justify-center py-4 md:px-[14vw]">
-    <ul class="flex justify-around w-full md:justify-between gap-4">
+    <p class="font-extrabold text-2xl whitespace-nowrap">Jhonn Gutierrez</p>
+    <ul class="flex justify-around w-full md:justify-end gap-4">
       <li>
-        <Button href='https://drive.google.com/file/d/1-9dp7g28oNKzcBw-7GM-XGm4mfzClNy0/view?usp=sharing'>
-          <FileIcon />
-          <p>Curriculum</p>
-        </Button>
-      </li>
-      <li class="lg:ml-auto" >
         <Button href='https://www.linkedin.com/in/jhonn-gutierrez-643592238/' square>
           <LinkedinIcon />
         </Button>
       </li>
-      <li class="lg:mr-auto lg:pr-16" >
+      <li>
         <Button href='https://github.com/JhonnGutierrez' square>
           <GithubIcon />
+        </Button>
+      </li>
+      <li>
+        <Button href='https://drive.google.com/file/d/1A1KqrbNTbZ94DKTl2JzT_zLY70AwU5VX/view?usp=sharing'>
+          <FileIcon />
+          <p>Curriculum</p>
         </Button>
       </li>
       <li>
