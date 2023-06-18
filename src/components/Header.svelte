@@ -15,9 +15,9 @@
 </script>
 
 <header>
-  <nav class="flex justify-center py-4 md:px-[14vw]">
-    <p class="font-extrabold text-2xl whitespace-nowrap">Jhonn Gutierrez</p>
-    <ul class="flex justify-around w-full md:justify-end gap-4">
+  <nav class="flex justify-center items-center py-4 md:px-[14vw]">
+    <p class="font-extrabold text-2xl whitespace-nowrap hidden md:inline">Jhonn Gutierrez</p>
+    <ul class="flex justify-around w-full md:justify-end gap-2 md:gap-4 px-4">
       <li>
         <Button href='https://www.linkedin.com/in/jhonn-gutierrez-643592238/' square>
           <LinkedinIcon />
